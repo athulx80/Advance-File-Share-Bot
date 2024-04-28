@@ -1,20 +1,20 @@
 class script(object):
     START_TXT = """Hey {},
-My Name is <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀ ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ꜰᴇᴀᴛᴜʀᴇ ʙᴜᴛ ᴏɴʟʏ ᴀᴅᴍɪɴ ᴄᴀɴ ᴘʀᴇᴠᴀɪʟ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴀs ᴀ ɴᴏʀᴍᴀʟ ꜰɪʟᴇ sᴛᴏʀᴇ ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
+My Name is <a href=https://t.me/{}>{}</a>, I am a File Store bot with Request to join feature but only Admin can prevail this feature. You can use me as a normal file store. Just send me any file. Then see my powers!😌🔥"""
     HELP_TXT = """Hey {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/VJBots_bot>VJ</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱"""
+Here is the help for my commands."""
+    ABOUT_TXT = """➲ My Name: {}
+➲ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/athulx80>Athul</a>
+➲ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: Pyrogram
+➲ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: Python 3
+➲ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: MongoDB"""
     SOURCE_TXT = """<b>Source Code Of This Bot is PUBLIC. This Bot Repository is Public by Tech_VJ YouTube Channel 😊"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and 𝐉𝐞𝐫𝐫𝐲 will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. 𝐉𝐞𝐫𝐫𝐲 should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -25,11 +25,11 @@ My Name is <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀ ꜰɪʟᴇ sᴛᴏʀᴇ
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- 𝐉𝐞𝐫𝐫𝐲 Supports both url and alert inline buttons.
+- Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. 𝐉𝐞𝐫𝐫𝐲 supports buttons with any telegram media type.
+2. Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
