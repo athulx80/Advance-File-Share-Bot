@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻L𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀ ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ꜰᴇᴀᴛᴜʀᴇ ʙᴜᴛ ᴏɴʟʏ ᴀᴅᴍɪɴ ᴄᴀɴ ᴘʀᴇᴠᴀɪʟ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴀs ᴀ ɴᴏʀᴍᴀʟ ꜰɪʟᴇ sᴛᴏʀᴇ ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
+    START_TXT = """Hey {},
+My Name is <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴀ ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ꜰᴇᴀᴛᴜʀᴇ ʙᴜᴛ ᴏɴʟʏ ᴀᴅᴍɪɴ ᴄᴀɴ ᴘʀᴇᴠᴀɪʟ ᴛʜɪs ꜰᴇᴀᴛᴜʀᴇ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴀs ᴀ ɴᴏʀᴍᴀʟ ꜰɪʟᴇ sᴛᴏʀᴇ ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ♥️♥️🔥"""
+    HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/VJBots_bot>VJ</a>
@@ -33,7 +33,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EnthadaNokunne)</code>
+<code>[Button Text](buttonurl:https://xxxxxxxxxxxxx)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -60,7 +60,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of Eva Maria!
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -70,7 +70,7 @@ these are the extra features of Eva Maria
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+This module only works for my admins!
 
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
@@ -90,11 +90,11 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+•Group = {}(<code>{}</code>)
+•Total Members = <code>{}</code>
+•Added By - {}
 """
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+•ID - <code>{}</code>
+•Name - {}
 """
