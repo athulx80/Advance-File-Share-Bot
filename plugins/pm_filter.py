@@ -97,12 +97,12 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Botz"),
+                InlineKeyboardButton("UPDATES", url="https://t.me/+L8SWfrF_7m04ODZl"),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ"),
+                InlineKeyboardButton("📺 GROUP", url="https://t.me/+hC5tRAvQHHplMWQ1"),
             ]
         )
         btn.append(
@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies\n\n<a href='https://t.me/Group_Linkzzzz'>Our Groups</a></b>")
+            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies\n\n<a href='https://t.me/+hC5tRAvQHHplMWQ1'>Our Group</a></b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -550,7 +550,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
+            InlineKeyboardButton('⬅️ BACK', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -670,12 +670,12 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
+            InlineKeyboardButton("Update", url="https://t.me/+L8SWfrF_7m04ODZl"),
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz"),
+            InlineKeyboardButton("Groups", url="https://t.me/+hC5tRAvQHHplMWQ1"),
         ]
     )
 
