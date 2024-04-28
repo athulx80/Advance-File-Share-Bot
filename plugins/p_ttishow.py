@@ -22,7 +22,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             # Inspired from a boat of a banana tree
             buttons = [[
-                InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_Bot')
+                InlineKeyboardButton('CONTACT', url='https://t.me/MEmpire_Comment_Bot')
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📖 About', url=f"https://t.me/{temp.U_NAME}?start=about")
+            InlineKeyboardButton('ℹ️ HELP', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('⚙️ ABOUT', url=f"https://t.me/{temp.U_NAME}?start=about")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -67,12 +67,12 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_bot')
+            InlineKeyboardButton('CONTACT', url='https://t.me/MEmpire_Comment_Bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact owner.</b>',
+            text='<b>Hey Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact owner.</b>',
             reply_markup=reply_markup,
         )
 
@@ -106,12 +106,12 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_bot')
+            InlineKeyboardButton('CONTACT', url='https://t.me/MEmpire_Comment_Bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact owner.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hey Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact owner.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
