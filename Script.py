@@ -4,10 +4,11 @@ My Name is <a href=https://t.me/{}>{}</a>, I am a File Store bot with Request to
     HELP_TXT = """Hey {}
 Here is the help for my commands."""
     ABOUT_TXT = """➲ My Name: {}
-➲ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/athulx80>Athul</a>
-➲ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: Pyrogram
-➲ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: Python 3
-➲ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: MongoDB"""
+➲ Creator: <a href=https://t.me/athulx80>Athul</a>
+➲ Library: Pyrogram
+➲ Language: Python 3
+➲ Channel: <a href=https://t.me/+L8SWfrF_7m04ODZl>𝐌𝐎𝐕𝐈𝐄𝐒 𝐄𝐌𝐏𝐈𝐑𝐄</a>
+➲ Database: MongoDB"""
     SOURCE_TXT = """<b>Source Code Of This Bot is PUBLIC. This Bot Repository is Public by Tech_VJ YouTube Channel 😊"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
