@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/FarzanGit/jerry",
-    "repository": "https://github.com/FarzanGit/jerry",
+    "repository": "https://github.com/athulx80/Advance-File-Share-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
